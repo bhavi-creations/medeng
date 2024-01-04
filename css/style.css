@@ -2279,9 +2279,13 @@ textarea {
 /*----------------------------------------*/ 
 /*  12. Footer CSS
 /*----------------------------------------*/
+footer{
+    background-color: #000;
+    /* color: white; */
+}
 .main-footer {
-    padding-bottom: 104px;
-    padding-top: 117px;
+    padding-bottom: 30px;
+    padding-top: 50px;
 }
 .footer-area.three .main-footer {
   padding-bottom: 50px;
@@ -2292,12 +2296,12 @@ textarea {
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    color: #606060;
+    color: white;
     margin-bottom: 45px;
     position: relative;
 }
 .single-widget h3::after {
-    background: #606060 none repeat scroll 0 0;
+    background: white none repeat scroll 0 0;
     bottom: -10px;
     content: "";
     height: 1px;
@@ -2306,7 +2310,7 @@ textarea {
     width: 57px;
 }
 .single-widget h3::before {
-    background: #606060 none repeat scroll 0 0;
+    background: white none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 1px;
@@ -2315,7 +2319,7 @@ textarea {
     width: 45px;
 }
 .single-widget p {
-    color: #7d7d7d;
+    color:  #c7c7c7;
     font-family: "Open Sans",sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -2331,16 +2335,24 @@ textarea {
     margin-right: 0px; 
 }
 .single-widget ul li {
-    color: #7d7d7d;
+    color: white;
     font-family: "Open Sans",sans-serif;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 16px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
+}
+.single-widget ul li a {
+    color: #c7c7c7;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    /* text-transform: capitalize; */
 }
 .footer-social ul li a{
     border: 1px solid #DADADA;
-    color: #7D7D7D;
+    color: white;
     height: 28px;
     width: 28px;
     border-radius: 50%;
@@ -2352,7 +2364,7 @@ textarea {
     transition: all 0.5s ease 0s;
 }
 .footer-area.two .footer-social ul li a{
-    border: 1px solid #7A7A93;
+    border: 1px solid white;
     color: #c7c7c7;
 }
 .footer-social ul li:hover a, .footer-area.two .footer-social ul li:hover a{
@@ -2443,14 +2455,14 @@ textarea {
 .single-service{padding: 40px 40px; box-shadow: 0 0 4px 0 #ddd;}
 .service-area h3{
     font-size: 20px;
-    color: #303030;
+    color: white;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 12px;
 }
 .service-area p{
     font-size: 14px;
-    color: #606060;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0px;
 }
@@ -2866,4 +2878,8 @@ textarea {
     background-color: #EC1C23;
     border: 1px solid #EC1C23;
     color: #fff;
+}
+
+#transforminglives{
+    font-size: 35px;
 }
