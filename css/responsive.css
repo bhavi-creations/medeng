@@ -167,7 +167,7 @@
     .slide-content h3, .choose-content h2 {font-size: 24px; line-height: 32px}
     .slide-content h3 {padding-top: 90px}
     .slide-content h2 {font-size: 24px; line-height: 30px}
-    .notice-area, .courses-area, .event-area, .blog-area, .main-footer, .service-area, .about-area, .blog-details-area, .course-area, .teacher-area, .contact-area {padding: 80px 0}
+     .courses-area, .event-area, .blog-area, .main-footer, .service-area, .blog-details-area, .course-area, .teacher-area, .contact-area {padding: 80px 0}
     .notice-left h3 {font-size: 24px; margin-bottom: 25px}
     .single-notice-right h3, .blog-bottom h2 a {font-size: 16px}
     .choose-area::before, .header-top::before, .slider-img{display: none;}
