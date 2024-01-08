@@ -607,6 +607,8 @@ textarea {
     color: #303030;
     font-size: 16px;
     line-height: 130px;
+    /* font-family: bold; */
+    font-weight: 700;
 }
 .main-menu ul li:last-child a{
     padding-right: 0px;
@@ -2923,5 +2925,57 @@ footer{
 /* Style for even rows */
 .table tbody tr:nth-child(even) {
     background-color: #fff;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+p {
+    color: #777;
+}
+
+.default-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+    .about-content {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .default-btn {
+        font-size: 14px;
+    }
 }
 
