@@ -165,11 +165,25 @@ textarea {
     transition: all 0.5s ease-out 0s;
 }
 .banner-area {
-  background: rgba(0, 0, 0, 0) url("../img/banner/banner.jpg") no-repeat scroll center center / cover ;
+  background:  url("../img/coursesmainimage.jpg") no-repeat scroll center center / cover ;
   position: relative;
   width: 100%;
   z-index: 1;
 }
+.banner-area-wrapper1 {
+    background-image: url("../img/coursesmainimage.jpg"); /* Replace 'path/to/your/image.jpg' with your image file path */
+    background-size: cover; /* Adjust as needed: cover, contain, etc. */
+    background-position: center center; /* Adjust position if necessary */
+    /* You can add more properties like background-repeat, background-attachment, etc. */
+}
+.banner-area-wrapper2 {
+    background-image: url("../img/teachermainimage.jpg"); /* Replace 'path/to/your/image.jpg' with your image file path */
+    background-size: cover; /* Adjust as needed: cover, contain, etc. */
+    background-position: center center; /* Adjust position if necessary */
+    /* You can add more properties like background-repeat, background-attachment, etc. */
+}
+
+
 .banner-content {
     padding: 132px 0 134px;
 }
