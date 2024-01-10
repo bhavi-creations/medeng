@@ -125,73 +125,79 @@
 		<!-- Header Area End -->
 
 		<!-- Background Area Start -->
+       
         <section id="slider-container" class="slider-area three"> 
+            <video id="video-background" autoplay muted loop>
+              <source src="img/medng video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        
             <div class="slider-owl owl-theme owl-carousel"> 
-                <!-- Start Slingle Slide -->
-                <div class="single-slide item" style="background-image: url(img/medng\ video.mp4)">
-                    <!-- Start Slider Content -->
-                    <div class="slider-content-area">  
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-7"> 
-                                    <div class="slide-content-wrapper">
-                                        <div class="slide-content">
-                                            <h3>EDUCATION MAKES </h3>
-                                            <h2>PROPER HUMANITY </h2>
-                                            <p>I must explain to you how all this mistaken idea of denouncing pleasure and prsing pain was born and I will give you a complete account of the system  </p>
-                                            <a class="default-btn" href="about.html">Learn more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5">
-                                    <div class="slider-img">
-                                        <img src="img/Medeng-Home-page-image-2.png" alt="slider">
-                                    </div>
-                                </div>
-                            </div>
+              <!-- Start Slingle Slide 1 -->
+              <div class="slider-content-area">  
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-7"> 
+                      <div class="slide-content-wrapper">
+                        <div class="slide-content">
+                          <!-- <h3 >EDUCATION MAKES </h3>
+                          <h2>PROPER HUMANITY </h2>
+                          <p>I must explain to you how all this mistaken idea of denouncing pleasure and prising pain was born and I will give you a complete account of the system</p>
+                          <a class="default-btn" href="about.html">Learn more</a> -->
                         </div>
+                      </div>
                     </div>
-                    <!-- Start Slider Content -->
-                </div>
-                <!-- End Slingle Slide -->
-
-                <!-- Start Slingle Slide -->
-                <div class="single-slide item" style="background-image: url(img/slider/slider2.jpg)">
-                    <!-- Start Slider Content -->
-                    <div class="slider-content-area">   
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-7"> 
-                                    <div class="slide-content-wrapper">
-                                        <div class="slide-content">
-                                            <h3>EDUCATION MAKES </h3>
-                                            <h2>PROPER HUMANITY </h2>
-                                            <!-- <p>I must explain to you how all this mistaken idea of denouncing pleasure and prsing pain was born and I will give you a complete account of the system  </p> -->
-                                            <p>At MEDENG, we believe that knowledge knows no bounds and that child with enthusiasm and curiosity can reach the stars.</p>
-                                            <a class="default-btn" href="about.html">Learn more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5">
-                                    <div class="slider-img">
-                                        <img src="img/Medeng-Home-page-image-1.png" alt="slider">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-5">
+                      <div class="slider-img">
+                        <img src="img/Medeng-Home-page-image-2.png" alt="slider">
+                      </div>
                     </div>
-                    <!-- Start Slider Content -->
+                  </div>
                 </div>
-                <!-- End Slingle Slide -->
- 
-
+              </div>
+              <!-- End Slingle Slide 1 -->
+        
+              <!-- Start Slingle Slide 2 -->
+              <div class="slider-content-area">   
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-7"> 
+                      <div class="slide-content-wrapper">
+                        <div class="slide-content">
+                          <!-- <h3>EDUCATION MAKES </h3>
+                          <h2>PROPER HUMANITY </h2>
+                          <p>At MEDENG, we believe that knowledge knows no bounds and that child with enthusiasm and curiosity can reach the stars.</p>
+                          <a class="default-btn" href="about.html">Learn more</a>-->
+                        </div> 
+                      </div>
+                    </div>
+                    <div class="col-lg-5">
+                      <div class="slider-img">
+                        <img src="img/Medeng-Home-page-image-1.png" alt="slider">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Slingle Slide 2 -->
             </div>
-        </section>
+          </section>
+        
+          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+          <script>
+            $(document).ready(function () {
+              $(".owl-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000, // Adjust the timeout as needed
+                autoplayHoverPause: true
+              });
+            });
+          </script>
 
  
-
-
-
         
  
 		<!-- Background Area End -->
