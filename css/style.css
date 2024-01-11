@@ -3125,4 +3125,12 @@ p {
     width: 100%; /* Ensure the image takes the full width */
   }
 
+
+  /* Media query for smaller screens */
+@media (max-width: 767px) {
+     .aboutcollege {
+        margin-top: -40%; /* Set margin to 0 for smaller screens */
+    }
+}
+
  
