@@ -3032,10 +3032,9 @@ p {
     width: 100%; /* Ensure the image takes the full width */
   }
 
-
-  /* @media (max-width: 767px) {
+  @media (max-width: 767px) {
     .mainimage3 img {
-        height: 100px;
+        height: 200px;
         width: auto;
     }
-} */
+} 
