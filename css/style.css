@@ -271,7 +271,7 @@ textarea {
 /* Media query for smaller screens */
 @media (max-width: 375px) {
     .banner-area-wrapper2 {
-        height: 180px; /* Adjust the height for smaller screens */
+        height: 160px; /* Adjust the height for smaller screens */
     }
 }
 
