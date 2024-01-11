@@ -236,7 +236,7 @@ textarea {
 /* Media query for smaller screens */
 @media (max-width: 767px) {
     .banner-area-wrapper1 {
-        height: 300px; /* Adjust the height for smaller screens */
+        height: 200px; /* Adjust the height for smaller screens */
     }
 }
 
@@ -263,7 +263,7 @@ textarea {
 /* Media query for smaller screens */
 @media (max-width: 767px) {
     .banner-area-wrapper2 {
-        height: 300px; /* Adjust the height for smaller screens */
+        height: 200px; /* Adjust the height for smaller screens */
     }
 }
 
