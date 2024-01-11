@@ -164,24 +164,117 @@ textarea {
     -webkit-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
 }
-.banner-area {
+/* .banner-area {
   background:  url("../img/coursesmainimage.jpg") no-repeat scroll center center / cover ;
   position: relative;
   width: 100%;
   z-index: 1;
+} */
+
+
+
+.banner-area {
+    background-image: url("../img/coursesmainimage.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: 400px; /* Set a default height for larger screens */
+
+    /* Add more styles as needed */
+
 }
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .banner-area  {
+        height: 300px; /* Adjust the height for smaller screens */
+    }
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 375px) {
+    .banner-area  {
+        height: 180px; /* Adjust the height for smaller screens */
+    }
+}
+
+
+
+/* .banner-area-wrapper1 {
+    background-image: url("../img/coursesmainimage.jpg");  
+    background-size: cover;  
+    background-position: center center;  
+    position: relative;
+    width: 100%;
+    z-index: 1;
+} */
+/* .banner-area-wrapper2 {
+    background-image: url("../img/teachermainimage.jpg");  
+    background-size: cover;  
+    background-position: center center;  
+   
+    position: relative;
+    width: 100%;
+    
+} */
+
+
 .banner-area-wrapper1 {
-    background-image: url("../img/coursesmainimage.jpg"); /* Replace 'path/to/your/image.jpg' with your image file path */
-    background-size: cover; /* Adjust as needed: cover, contain, etc. */
-    background-position: center center; /* Adjust position if necessary */
-    /* You can add more properties like background-repeat, background-attachment, etc. */
+    background-image: url("../img/coursesmainimage.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: 400px; /* Set a default height for larger screens */
+
+    /* Add more styles as needed */
+
 }
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .banner-area-wrapper1 {
+        height: 300px; /* Adjust the height for smaller screens */
+    }
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 375px) {
+    .banner-area-wrapper1 {
+        height: 180px; /* Adjust the height for smaller screens */
+    }
+}
+
 .banner-area-wrapper2 {
-    background-image: url("../img/teachermainimage.jpg"); /* Replace 'path/to/your/image.jpg' with your image file path */
-    background-size: cover; /* Adjust as needed: cover, contain, etc. */
-    background-position: center center; /* Adjust position if necessary */
-    /* You can add more properties like background-repeat, background-attachment, etc. */
+    background-image: url("../img/teachermainimage.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: 400px; /* Set a default height for larger screens */
+
+    /* Add more styles as needed */
+
 }
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .banner-area-wrapper2 {
+        height: 300px; /* Adjust the height for smaller screens */
+    }
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 375px) {
+    .banner-area-wrapper2 {
+        height: 180px; /* Adjust the height for smaller screens */
+    }
+}
+
 
 
 .banner-content {
@@ -3032,9 +3125,4 @@ p {
     width: 100%; /* Ensure the image takes the full width */
   }
 
-  @media (max-width: 767px) {
-    .mainimage3 img {
-        height: 200px;
-        width: auto;
-    }
-} 
+ 
