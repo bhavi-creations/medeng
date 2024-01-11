@@ -1009,15 +1009,15 @@ textarea {
     left: 0;
     top: 0;
     content: "";
-    background: rgba(0, 0, 0, 0.32);
+    /* background: rgba(0, 0, 0, 0.32); */
     width: 100%;
     height: 100%;
 }
 .two .single-slide:after{
-    background: rgba(0, 0, 0, 0.55);
+    /* background: rgba(112, 107, 107, 0.55); */
 }
 .three .single-slide:after, .banner-area:after{
-    background: rgba(0, 0, 0, 0.80);
+    /* background: rgba(155, 146, 146, 0.8); */
 }
 .slider-img{z-index: 1; position: relative; margin-right: -25px}
 .slider-area img {width: 100%;}
@@ -1400,7 +1400,7 @@ textarea {
     top: 50%;
     content: "";
     opacity: 0;
-    transform: translate(-50% -50%)
+    transform: translate(-50% -50%);
     margin: auto;
     z-index: 1;
     -webkit-transition: all 0.5s ease 0s;
@@ -3031,3 +3031,11 @@ p {
   .slider-img img {
     width: 100%; /* Ensure the image takes the full width */
   }
+
+
+  /* @media (max-width: 767px) {
+    .mainimage3 img {
+        height: 100px;
+        width: auto;
+    }
+} */
