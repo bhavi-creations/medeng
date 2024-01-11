@@ -248,6 +248,13 @@ textarea {
     }
 }
 
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .banner-area-wrapper1 {
+        margin-bottom: 50px;
+    }
+}
 .banner-area-wrapper2 {
     background-image: url("../img/teachermainimage.jpg");
     background-size: cover;
