@@ -195,34 +195,33 @@
                             <!-- <h3 class="text-danger">Contact </h3> -->
                             <h3>Get in Touch</h3>
                             <!-- <p>I must explain to you how all this a mistaken idea of ncing great explorer of the rut the is lder of human happinescias unde omnis iste natus error sit volptatem </p> -->
-                            <form id="contact-form" action="https://whizthemes.com/mail-php/other/mail.php">
+                            <form   action="contactMail.php" method="post">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <p> First Name</p>
-                                        <input type="text" name="con_name">
+                                        <input type="text" name="first" required>
                                     </div>
                                     <div class="col-md-12">
                                         <p> Last Name</p>
-                                        <input type="text" name="con_name">
+                                        <input type="text" name="last" required>
                                     </div>
                                     <div class="col-md-12">
                                         <p>Email</p>
-                                        <input type="text" name="con_email">
+                                        <input type="mail" name="email" required>
                                     </div>
                                     <div class="col-md-12">
                                         <p>Phone Number</p>
-                                        <input type="text" name="con_email">
+                                        <input type="number" name="number" required>
                                     </div>
                                     <div class="col-md-12">
                                         <p>Subject</p>
-                                        <input type="text" name="con_subject">
+                                        <input type="text" name="subject" required>
                                         <p>Message</p>
-                                        <textarea name="con_message" cols="15" rows="10"></textarea>
+                                        <textarea name="message" cols="15" rows="10"></textarea>
                                     </div>
                                 </div>
-                                <button class="reply-btn" type="submit"><span>send message</span></button>
-                                <p class="form-message"></p>
-                            </form>
+                                <button class="reply-btn" name="button" type="submit"><span>send message</span></button>
+                             </form>
                         </div>
                     </div>
                 </div>
