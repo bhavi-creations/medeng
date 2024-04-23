@@ -36,7 +36,23 @@
 /*----------------------------------------*/
 /*  1. Default CSS
 /*----------------------------------------*/
+
+
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+
+
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+  
 body {
 	color: #606060;
 	font-size: 14px;
@@ -3131,6 +3147,33 @@ p {
   .slider-img img {
     width: 100%; /* Ensure the image takes the full width */
   }
+
+
+
+
+
+
+  /* starting Results page  */
+  .results_name{
+    font-size: 14px;
+    font-weight: 900;
+    color: #000;
+    font-family: "Inter", sans-serif;
+  }
+
+  .results_hallticketnumber{
+    font-size: 15px;
+    color: #2C2B5E;
+    font-family: "Inter", sans-serif;
+  }
+
+  .results_marks{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+  }
+
+  
+  /*  Ending  Results page  */
 
 
   /* Media query for smaller screens */
