@@ -3172,6 +3172,19 @@ p {
     font-family: "Inter", sans-serif;
   }
 
+
+  .shadow_card {
+    /* width: 300px; */
+    /* padding: 20px; */
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 8px  8px 8px 8px rgba(0, 0, 0, 0.1); /* This creates a shadow effect */
+    /* margin: 20px; */
+}
+
+
+
+
   
   /*  Ending  Results page  */
 
