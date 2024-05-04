@@ -3173,19 +3173,112 @@ p {
   }
 
 
+
+  .custom-nav-link {
+    background: linear-gradient(to right,#8400e2, #df0e86  ,  #0c54da, rgb(184, 4, 255) ,rgb(255, 1, 221)); 
+   
+    background-size: 400% 30px !important;
+    animation: gradientAnimation 4s linear infinite;
+    border-radius: 90px !important;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
   .shadow_card {
-    /* width: 300px; */
-    /* padding: 20px; */
     border-radius: 10px;
     background-color: white;
-    box-shadow: 8px  8px 8px 8px rgba(0, 0, 0, 0.1); /* This creates a shadow effect */
-    /* margin: 20px; */
+    box-shadow: 8px  8px 8px 8px rgba(0, 0, 0, 0.1);  
+}
+
+
+/* animation results */
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
 
 
+@media (min-width: 768px) and (max-width: 992px) {
+    .marg-resp {
+        margin-top: 6%;  
+    }
+}
 
-  
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 5px 0;
+    border: 1px solid #ccc;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-nav-link {
+     background: linear-gradient(to right, #3498DB, #EC1C23, #615fe6, rgb(184, 4, 255),
+     rgb(255, 1, 221));
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;  
+    padding: 5px 0;
+    border-radius: 10px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}
+
+.dropdown-menu li {
+    list-style-type: none;   
+}
+
+.dropdown-menu li a {
+    color: #333;  
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f0f0f0; 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+} */
+
+
+
   /*  Ending  Results page  */
 
 
@@ -3209,5 +3302,9 @@ p {
     width:50px; /* Adjust size as needed */
     height: 50px; /* Adjust size as needed */
 }
+
+ 
+ 
+  
 
  

@@ -78,6 +78,60 @@
                                                     <li><a href="course-details.html">courses details</a></li>
                                                 </ul>
                                             </li>
+
+                                              <!-- <li class="custom-nav-link" ><a href="course.html"  style="color: black; "  
+                                                 >courses</a>
+                                                <ul>
+                                                    <li><a href="course.html">courses</a></li>
+                                                    <li><a href="course-details.html">courses details</a></li>
+                                                </ul>
+                                            </li>   -->
+                                            <!-- <button class="custom-nav-link">hello</button> -->
+
+                                            
+                                            
+                                            <li class="dropdown marg-resp">
+                                                <button class="custom-nav-link" style="color: white; font-weight: bold; border-radius: 50px;  text-decoration: none; font-size: 16px;">Results</button>
+                                                <ul>
+                                                    <li><a href="mpc_results.html">MPC Results</a></li>
+                                                    <li><a href="bipc_results.html">BIPC Results</a></li>
+
+                                                </ul>
+                                            </li>
+
+
+                                             
+
+                                            <script>
+                                                document.addEventListener("click", function(e) {
+                                                    const dropdown = document.querySelector(".dropdown");
+                                                    if (!dropdown.contains(e.target)) {
+                                                        const dropdownMenus = document.querySelectorAll(".dropdown-menu");
+                                                        dropdownMenus.forEach(function(menu) {
+                                                            menu.style.display = "none";
+                                                        });
+                                                    }
+                                                });
+                                            
+                                                // Add an event listener to prevent hiding the dropdown menu when hovering over it
+                                                document.querySelectorAll(".dropdown-menu").forEach(function(menu) {
+                                                    menu.addEventListener("mouseover", function(e) {
+                                                        e.stopPropagation(); // Prevent event from bubbling up to the document
+                                                    });
+                                                });
+                                            </script>
+                                            
+
+
+                                            <!-- <li class="nav-item mt-2 eve  ml-auto" style="margin-top: -30px!important;">
+                                                <a style="color: black; font-weight: bold; border-radius: 50px;  text-decoration: none;"
+                                                    class="custom-nav-link" href="events.html">Results</a>
+                                                <ul>
+                                                    <li><a href="course.html">courses</a></li>
+                                                    <li><a href="course-details.html">courses details</a></li>
+                                                </ul> 
+                                            </li> -->
+
                                             <li class="hidden-sm"><a href="teacher.html">teacher</a>
                                                 <ul>
                                                     <li><a href="teacher.html">teacher</a></li>
@@ -135,16 +189,13 @@
         
             <div class="slider-owl owl-theme owl-carousel"> 
               <!-- Start Slingle Slide 1 -->
-              <div class="slider-content-area">  
+
+              <!-- <div class="slider-content-area">  
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-7"> 
                       <div class="slide-content-wrapper">
                         <div class="slide-content">
-                          <!-- <h3 >EDUCATION MAKES </h3>
-                          <h2>PROPER HUMANITY </h2>
-                          <p>I must explain to you how all this mistaken idea of denouncing pleasure and prising pain was born and I will give you a complete account of the system</p>
-                          <a class="default-btn" href="about.html">Learn more</a> -->
                         </div>
                       </div>
                     </div>
@@ -155,20 +206,21 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
+
+
               <!-- End Slingle Slide 1 -->
         
               <!-- Start Slingle Slide 2 -->
-              <div class="slider-content-area">   
+
+
+              <!-- <div class="slider-content-area">   
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-7"> 
                       <div class="slide-content-wrapper">
                         <div class="slide-content">
-                          <!-- <h3>EDUCATION MAKES </h3>
-                          <h2>PROPER HUMANITY </h2>
-                          <p>At MEDENG, we believe that knowledge knows no bounds and that child with enthusiasm and curiosity can reach the stars.</p>
-                          <a class="default-btn" href="about.html">Learn more</a>-->
+
                         </div> 
                       </div>
                     </div>
@@ -179,7 +231,9 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
+
+
               <!-- End Slingle Slide 2 -->
             </div>
         </section>
