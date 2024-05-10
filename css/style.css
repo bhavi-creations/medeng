@@ -5221,4 +5221,13 @@ p {
         transform: rotateY(0deg);
     }
 }
+
+
+
+
+.Reviewimage{
+
+    border-radius: 50px ;
+    border: 2px solid #87297F;
+}
  
