@@ -1,286 +1,141 @@
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Medeng College</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="./img/new fav.png">
-    
-        <!-- Your existing stylesheet links -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="css/meanmenu.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/et-line-icon.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/ionicons.min.css">
-        <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    </head>
+<?php include 'navbar.php';  ?>
 
-    <style> 
-    @media screen and (max-width:768px) {
-        .table-container {
+<style>
+  @media screen and (max-width:768px) {
+    .table-container {
       overflow-x: scroll;
     }
-    }
-   
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      border-spacing: 0;
-    }
-    th, td {
-      padding: 8px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-    </style>
-   
-    <body>
-       
+  }
 
-        <!-- Header Area Start -->
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
 
-		<header class="top">
-		    <div class="header-top">
-		        <div class="container">
-		            <div class="row">
-		                <div class="col-md-8 col-sm-8">
-		                    <div class="header-top-left">
-		                        <!-- <p>HAVE ANY QUESTION ?  +880 5698  598  6587</p> -->
-		                        <p>HAVE ANY QUESTION ?  +91 9492381111</p>
-		                    </div>
-		                </div>
-		                <div class="col-md-4 col-sm-4">
-		                    <div class="header-top-right text-md-end text-center">
-		                        <ul>
-		                            <!-- <li><a href="login.html">login</a></li>
-		                            <li><a href="signup.html">signup</a></li> -->
-                                    <li><a href="#">medengcolleges@gmail.com</a> </li>
-		                        </ul>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-			<div class="header-area two header-sticky">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3 col-sm-5 col-6">
-							<div class="logo">
-								<a href="index.html"><img src="img/medengcollege.png" alt="eduhome" /></a>
-							</div>
-						</div>
-						<div class="col-md-9 col-sm-7 col-6">
-                            <div class="content-wrapper text-end">
-                                <!-- Main Menu Start -->
-                                <div class="main-menu">
-                                    <nav>
-                                        <ul>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About us</a></li>
-                                            <li><a href="course.html">courses</a>
-                                                <ul>
-                                                    <li><a href="course.html">courses</a></li>
-                                                    <li><a href="course-details.html">courses details</a></li>
-                                                </ul>
-                                            </li>
-                                               <!-- Results -->
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
 
-                                               <li class="dropdown marg-resp">
-                                                <button class="custom-nav-link" style="color: white; font-weight: bold; border-radius: 50px;  text-decoration: none; font-size: 16px;">Results</button>
-                                                <ul  >
-                                                    <li><a href="mpc_results.html">MPC Results</a></li>
-                                                    <li><a href="bipc_results.html">BIPC Results</a></li>
-    
-                                                </ul>
-                                              </li>
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
 
-                                              <script>
-                                                document.addEventListener("click", function(e) {
-                                                    const dropdown = document.querySelector(".dropdown");
-                                                    if (!dropdown.contains(e.target)) {
-                                                        const dropdownMenus = document.querySelectorAll(".dropdown-menu");
-                                                        dropdownMenus.forEach(function(menu) {
-                                                            menu.style.display = "none";
-                                                        });
-                                                    }
-                                                });
-    
-                                              </script>
+<!-- Header Area End -->
+<div class="aboutmainimage">
+  <img src="img/results/bipc_results_large_image.png" alt="" width="100%" class="img-fluid">
+</div>
 
-                                            <li class="hidden-sm"><a href="teacher.html">teacher</a>
-                                                <ul>
-                                                    <li><a href="teacher.html">teacher</a></li>
-                                                    <li><a href="teacher-details.html">teacher details</a></li>
-                                                </ul>
-                                            </li>
-                                            <!-- <li><a href="blog.html">blog</a>
-                                                <ul>
-                                                    <li><a href="blog-details.html">blog details</a></li>
-                                                </ul>
-                                            </li> -->
-                                            <li><a href="contact.html">Contact</a></li>
+<!-- Banner Area End -->
 
-                                            <li><a href="gallery.html">Gallery</a></li>
-
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <!--Search Form Start-->
-                                <div class="search-btn">
-                                    <ul class="header-search search-toggle">
-                                        <li class="search-menu">
-                                            <i class="fa fa-search"></i>
-                                        </li>
-                                    </ul>
-                                    <div class="search">
-                                        <div class="search-form">
-                                            <form id="search-form" action="#">
-                                                <input type="search" placeholder="Search here..." name="search" />
-                                                <button type="submit">
-                                                    <span><i class="fa fa-search"></i></span>
-                                                </button>
-                                            </form>                                
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End of Search Form-->
-                                <!-- Main Menu End -->
-                            </div>
-						</div>
-                        <div class="col-12">
-                            <div class="mobile-menu hidden-sm"></div> 
-                        </div>
-					</div>
-				</div>
-			</div>
-		</header>
+<!-- Teacher Start -->
 
 
-		<!-- Header Area End -->
-            <div class="aboutmainimage">
-                <img src="img/results/bipc_results_large_image.png" alt="" width="100%" class="img-fluid">
-            </div>
-
-		<!-- Banner Area End -->
-
-        <!-- Teacher Start -->
+<div class="teacher-area pt-50 pb-105">
+  <div class="container">
+    <div class="row">
 
 
-        <div class="teacher-area pt-50 pb-105">
-            <div class="container">
-                <div class="row">
-
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-                        <div class="card shadow_card">
-                            <img src="img/results/Bipc_image1.png" class="card-img-top" alt="..." class="img-fluid">
-                            <div class="card-body text-center">
-                              <h5 class="card-title results_name" > Name : TEJAVATH NISHANTH
-                            </h5>
-                              <h5 class="card-title  results_hallticketnumber"  > Hall Ticket No : 2414137602
-                            </h5>
-                              <h1 class="  text-danger results_marks"> Results :429/440</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-                        <div class="card shadow_card">
-                            <img src="img/results/Bipc_image2.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title results_name" > Name : JANGAM SAI SRUJANA</h5>
-                                <h5 class="card-title  results_hallticketnumber"  > Hall Ticket No : 2414137665</h5>
-                                <h1 class="  text-danger results_marks"> Results :429/440</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-                        <div class="card shadow_card">
-                            <img src="img/results/Bipc_image3.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title results_name" > Name : BOKINALA
-                                    NEHANICOLE
-                                    </h5>
-                                <h5 class="card-title  results_hallticketnumber"  > Hall Ticket No : 2414137595</h5>
-                                <h1 class="  text-danger results_marks"> Results :427/440</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-                        <div class="card shadow_card">
-                            <img src="img/results/Bipc_image4.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title results_name" > Name : NALAGATI SAI TEJASWINI
-                                </h5>
-                                <h5 class="card-title  results_hallticketnumber"> Hall Ticket No : 2414137677</h5>
-                                <h1 class="  text-danger results_marks"> Results :427/440</h1>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-                        <div class="card text-center shadow_card">
-                            <img src="img/results/Bipc_image5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title results_name" > Name : ATHMAKURU RUTHVIKA
-                                </h5>
-                                <h5 class="card-title  results_hallticketnumber"  > Hall Ticket No : 2414137653</h5>
-                                <h1 class="  text-danger results_marks"> Results :425/440</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-                        <div class="card shadow_card ">
-                            <img src="img/results/Bipc_image6.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title results_name" > Name : CHAPARALA SWETHA
-                                </h5>
-                                <h5 class="card-title  results_hallticketnumber"  > Hall Ticket No : 2414137657</h5>
-                                <h1 class="  text-danger results_marks"> Results :425/440</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-                        <div class="card shadow_card">
-                            <img src="img/results/Bipc_image7.png" class="card-img-top" alt="...">
-                            <div class="card-body text-center">
-                                <h5 class="card-title results_name" > Name : VELLANKI LOKESH BABU
-                                </h5>
-                                <h5 class="card-title  results_hallticketnumber"  > Hall Ticket No : 2414137614</h5>
-                                <h1 class="  text-danger results_marks"> Results :425/440</h1>
-                            </div>
-                        </div>
-                    </div>
-
-
-              
-                </div>
-            </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+        <div class="card shadow_card">
+          <img src="img/results/Bipc_image1.png" class="card-img-top" alt="..." class="img-fluid">
+          <div class="card-body text-center">
+            <h5 class="card-title results_name"> Name : TEJAVATH NISHANTH
+            </h5>
+            <h5 class="card-title  results_hallticketnumber"> Hall Ticket No : 2414137602
+            </h5>
+            <h1 class="  text-danger results_marks"> Results :429/440</h1>
+          </div>
         </div>
+      </div>
 
-         
-        <!-- Teacher End -->
-        
-          <!-- <div class="container" style="overflow-x: scroll;">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+        <div class="card shadow_card">
+          <img src="img/results/Bipc_image2.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title results_name"> Name : JANGAM SAI SRUJANA</h5>
+            <h5 class="card-title  results_hallticketnumber"> Hall Ticket No : 2414137665</h5>
+            <h1 class="  text-danger results_marks"> Results :429/440</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+        <div class="card shadow_card">
+          <img src="img/results/Bipc_image3.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title results_name"> Name : BOKINALA
+              NEHANICOLE
+            </h5>
+            <h5 class="card-title  results_hallticketnumber"> Hall Ticket No : 2414137595</h5>
+            <h1 class="  text-danger results_marks"> Results :427/440</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+        <div class="card shadow_card">
+          <img src="img/results/Bipc_image4.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title results_name"> Name : NALAGATI SAI TEJASWINI
+            </h5>
+            <h5 class="card-title  results_hallticketnumber"> Hall Ticket No : 2414137677</h5>
+            <h1 class="  text-danger results_marks"> Results :427/440</h1>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+        <div class="card text-center shadow_card">
+          <img src="img/results/Bipc_image5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title results_name"> Name : ATHMAKURU RUTHVIKA
+            </h5>
+            <h5 class="card-title  results_hallticketnumber"> Hall Ticket No : 2414137653</h5>
+            <h1 class="  text-danger results_marks"> Results :425/440</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+        <div class="card shadow_card ">
+          <img src="img/results/Bipc_image6.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title results_name"> Name : CHAPARALA SWETHA
+            </h5>
+            <h5 class="card-title  results_hallticketnumber"> Hall Ticket No : 2414137657</h5>
+            <h1 class="  text-danger results_marks"> Results :425/440</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
+        <div class="card shadow_card">
+          <img src="img/results/Bipc_image7.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title results_name"> Name : VELLANKI LOKESH BABU
+            </h5>
+            <h5 class="card-title  results_hallticketnumber"> Hall Ticket No : 2414137614</h5>
+            <h1 class="  text-danger results_marks"> Results :425/440</h1>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Teacher End -->
+
+<!-- <div class="container" style="overflow-x: scroll;">
             <div class="row">
                 <div class="col-12">
                     <table class="table" >
@@ -2229,502 +2084,502 @@
                 </div>
             </div>
         </div>   -->
-        
-
-
-
-
-        <div class="container" style="overflow-x: scroll;">
-          <div class="row">
-              <div class="col-12">
-                  <table class="table" >
-                      <thead>
-                        <tr>
-                          <th scope="col">S.NO</th>
-                          <th scope="col">ROLL NUMBER</th>
-                          <th scope="col">NAME OF THE STUDENT</th>
-                          <th scope="col">ENG 100</th>
-                          <th scope="col">SAN 100</th>
-                          <th scope="col">PHY 60</th>
-                          <th scope="col">CHEM  60</th>
-                          <th scope="col">BOT 60</th>
-                          <th scope="col">ZOOL  60</th>
-                          <th scope="col">TOTAL 440</th>
-          
-                        </tr>
-                      </thead>
-                      <tbody>
-
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>2414137602</td>
-                          <td>TEJAVATH NISHANTH</td>
-                          <td>94</td>
-                          <td>98</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>59</td>
-                          <td>60</td>
-                          <td>429</td>
-                           
-                        </tr>
-
-                        <tr>
-                          <th scope="row">2</th>
-                          <td>2414137665</td>
-                          <td>JANGAM SAI SRUJANA</td>
-                          <td>93</td>
-                          <td>98</td>
-                          <td>60</td>
-                          <td>60</td>
-                          <td>60</td>
-                          <td>58</td>
-                          <td>429</td>
-                        </tr>
-
-                        <tr>
-                          <th scope="row">3</th>
-                          <td>2414137595</td>
-                          <td>BOKINALAN   EHANICOLE</td>
-                          <td>93</td>
-                          <td>99</td>
-                          <td>60</td>
-                          <td>56</td>
-                          <td>69</td>
-                          <td>60</td>
-                          <td>427</td>
-                        </tr>
-
-                        <tr>
-                          <th scope="row">4</th>
-                          <td>2414137677</td>
-                          <td>NALAGATI SAI TEJASWINI</td>
-                          <td>93</td>
-                          <td>98</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>427</td>
-                        </tr>
-
-                        <tr>
-                          <th scope="row">5</th>
-                          <td>2414137614</td>
-                          <td>VELLANKI LOKESH BABU</td>
-                          <td>94</td>
-                          <td>97</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>60</td>
-                          <td>56</td>
-                          <td>427</td>
-                        </tr>
-
-                        <tr>
-                          <th scope="row">6</th>
-                          <td>2414137653</td>
-                          <td>ATHMAKURU RUTHVIKA</td>
-                          <td>96</td>
-                          <td>98</td>
-                          <td>58</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>55</td>
-                          <td>425</td>
-                        </tr>
-
-                        <tr>
-                          <th scope="row">7</th>
-                          <td>2414137657</td>
-                          <td>CHAPARALA SWETHA</td>
-                          <td>95</td>
-                          <td>97</td>
-                          <td>57</td>
-                          <td>56</td>
-                          <td>60</td>
-                          <td>60</td>
-                          <td>425</td>
-                        </tr>
-
-                        <tr>
-                          <th scope="row">8</th>
-                          <td>2414137622</td>
-                          <td>GAJULA KEETHAN</td>
-                          <td>89</td>
-                          <td>98</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>59</td>
-                          <td>60</td>
-                          <td>424</td>
-                          
-                        </tr>
-
-                        <tr>
-                          <th scope="row">9</th>
-                          <td>2414137638</td>
-                          <td>KONETI YUVARAM SRUJAN</td>
-                          <td>91</td>
-                          <td>95</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>60</td>
-                          <td>60</td>
-                          <td>424</td>
-                         
-
-                        </tr>
-
-                        <tr>
-                          <th scope="row">10</th>
-                          <td>2414137661</td>
-                          <td>MARGANI GAGAN</td>
-                          <td>93</td>
-                          <td>95</td>
-                          <td>60</td>
-                          <td>55</td>
-                          <td>60</td>
-                          <td>57</td>
-                          <td>420</td>
-                          
-
-                        </tr>
-
-                        <tr>
-                          <th scope="row">11</th>
-                          <td>2414137685</td>
-                          <td>RATNAKARAM NAGA SUMITRA</td>
-                          <td>96</td>
-                          <td>95</td>
-                          <td>60</td>
-                          <td>55</td>
-                          <td>60</td>
-                          <td>53</td>
-                          <td>419</td>
-                          
-                        </tr>
-
-                        <tr>
-                          <th scope="row">12</th>
-                          <td>2414137534</td>
-                          <td>IRUGULA VENKATA SRIVIDYA</td>
-                          <td>95</td>
-                          <td>96</td>
-                          <td>56</td>
-                          <td>55</td>
-                          <td>56</td>
-                          <td>59</td>
-                          <td>417</td>
-                        </tr>
-
-                        
-
-                        <tr>
-                          <th scope="row">13</th>
-                          <td>2414137669</td>
-                          <td>M HANSHIKKA</td>
-                          <td>92</td>
-                          <td>96</td>
-                          <td>60</td>
-                          <td>58</td>
-                          <td>58</td>
-                          <td>53</td>
-                          <td>417</td>
-                        </tr>
-
-                        
-
-                        <tr>
-                          <th scope="row">14</th>
-                          <td>2414137475</td>
-                          <td>TELI JANARDHANA VENKATANAGADURGA SAIMAHESH</td>
-                          <td>95</td>
-                          <td>93</td>
-                          <td>47</td>
-                          <td>60</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>413</td>
-                        </tr>
-
-                         
-
-                        <tr>
-                          <th scope="row">15</th>
-                          <td>2414137645	</td>
-                          <td>BURADAGUNTA SOWMYA</td>
-                          <td>96</td>
-                          <td>98</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>59</td>
-                          <td>41</td>
-                          <td>412</td>
-                        </tr>
-                        
-                        
-                        <tr>
-                          <th scope="row">16</th>
-                          <td>2414137618</td>
-                          <td>DAFEDAR KHAJA HUSSAIN</td>
-                          <td>87</td>
-                          <td>96</td>
-                          <td>52</td>
-                          <td>60</td>
-                          <td>59</td>
-                          <td>56</td>
-                          <td>410</td>
-                        </tr>
-                         
-
-
-
-                        <tr>
-                          <th scope="row">17</th>
-                          <td>2414137681</td>
-                          <td>PATHINTIB   HUVANESWARI</td>
-                          <td>91</td>
-                          <td>91</td>
-                          <td>57</td>
-                          <td>51</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>408</td>
-                        </tr>
-                        
-
-
-                        <tr>
-                          <th scope="row">18</th>
-                          <td>2414137610</td>
-                          <td>KALLUPOTHULA NAVANEETH</td>
-                          <td>92</td>
-                          <td>94</td>
-                          <td>47</td>
-                          <td>60</td>
-                          <td>60</td>
-                          <td>52</td>
-                          <td>405</td>
-                        </tr>
-
-                        
-
-                        <tr>
-                          <th scope="row">19</th>
-                          <td>2414137649</td>
-                          <td>SAGINALA SATHWIKA</td>
-                          <td>90</td>
-                          <td>94</td>
-                          <td>56</td>
-                          <td>56</td>
-                          <td>60</td>
-                          <td>49</td>
-                          <td>405</td>
-                        </tr>
-                         
-
-                        <tr>
-                          <th scope="row">20</th>
-                          <td>2414137508</td>
-                          <td>MAMIDI LAKSHMAN SIVA SAI</td>
-                          <td>80</td>
-                          <td>96</td>
-                          <td>55</td>
-                          <td>55</td>
-                          <td>59</td>
-                          <td>57</td>
-                          <td>402</td>
-                        </tr>
-
-                         
-
-                        <tr>
-                          <th scope="row">21</th>
-                          <td>2414137630</td>
-                          <td>BAIRABOYINA RAHUL</td>
-                          <td>86</td>
-                          <td>84</td>
-                          <td>60</td>
-                          <td>60</td>
-                          <td>59</td>
-                          <td>53</td>
-                          <td>402</td>
-                        </tr>
-
-
-                         
-
-                        <tr>
-                          <th scope="row">22</th>
-                          <td>2414137641</td>
-                          <td>KAMATHAM PRASHANTH</td>
-                          <td>85</td>
-                          <td>91</td>
-                          <td>58</td>
-                          <td>60</td>
-                          <td>58</td>
-                          <td>47</td>
-                          <td>399</td>
-                        </tr>
-
-                  
-                        <tr>
-                          <th scope="row">23</th>
-                          <td>2414137606</td>
-                          <td>VEERI THANUSH GOUD</td>
-                          <td>83</td>
-                          <td>90</td>
-                          <td>60</td>
-                          <td>55</td>
-                          <td>54</td>
-                          <td>56</td>
-                          <td>398</td>
-                        </tr>
-         
-                        
-
-                        <tr>
-                          <th scope="row">24</th>
-                          <td>2414137688</td>
-                          <td>MANGALI VENKATA SUBBA CHARITHA</td>
-                          <td>86</td>
-                          <td>84</td>
-                          <td>60</td>
-                          <td>50</td>
-                          <td>60</td>
-                          <td>57</td>
-                          <td>397</td>
-                        </tr>
-
-                         
-                        <tr>
-                          <th scope="row">25</th>
-                          <td>2414137673</td>
-                          <td>YENDLURI SHIFRA</td>
-                          <td>85</td>
-                          <td>81</td>
-                          <td>60</td>
-                          <td>56</td>
-                          <td>58</td>
-                          <td>51</td>
-                          <td>391</td>
-                        </tr>
-
-                        
-
-
-                        <tr>
-                          <th scope="row">26</th>
-                          <td>2414137634</td>
-                          <td>G VINAY KUMAR</td>
-                          <td>76</td>
-                          <td>91</td>
-                          <td>55</td>
-                          <td>60</td>
-                          <td>55</td>
-                          <td>51</td>
-                          <td>388</td>
-                        </tr>
-
-                        
-
-
-                        <tr>
-                          <th scope="row">27</th>
-                          <td>2414137598</td>
-                          <td>DODDA ANEESH</td>
-                          <td>81</td>
-                          <td>78</td>
-                          <td>58</td>
-                          <td>58</td>
-                          <td>52</td>
-                          <td>60</td>
-                          <td>387</td>
-                        </tr>
-
-
-                         
-
-
-
-
-
-                        <tr>
-                          <th scope="row">28</th>
-                          <td>2414137626</td>
-                          <td>KAREPAKU GOPI RAKEE RANGANATH</td>
-                          <td>75</td>
-                          <td>80</td>
-                          <td>54</td>
-                          <td>57</td>
-                          <td>59</td>
-                          <td>55</td>
-                          <td>380</td>
-                        </tr>
-                        
-                         
-
-
-                        <tr>
-                          <th scope="row">29</th>
-                          <td>2414137692</td>
-                          <td>ATTAR MAHAMMED DADASAB</td>
-                          <td>85</td>
-                          <td>88</td>
-                          <td>50</td>
-                          <td>43</td>
-                          <td>55</td>
-                          <td>48</td>
-                          <td>369</td>
-                        </tr>
-
-                        
-
-
-                        <tr>
-                          <th scope="row">30</th>
-                          <td>2414137530</td>
-                          <td>DEVARAPALLI SRIVIDHYA</td>
-                          <td>80</td>
-                          <td>73</td>
-                          <td>58</td>
-                          <td>49</td>
-                          <td>55</td>
-                          <td>48</td>
-                          <td>363</td>
-                        </tr>
-
-
-                         
-
-
-                        <tr>
-                          <th scope="row">31</th>
-                          <td>2414137512</td>
-                          <td>SUVVARI ASHWANI</td>
-                          <td>83</td>
-                          <td>62</td>
-                          <td>53</td>
-                          <td>34</td>
-                          <td>51</td>
-                          <td>50</td>
-                          <td>333</td>
-                        </tr>
-
-                        
-          
-                      </tbody>
-                    </table>
-              </div>
-          </div>
-        </div>
-
-        <br>
-
-        <br>
-      
-    <!-- <button  id="open-pdf">
+
+
+
+
+
+<div class="container" style="overflow-x: scroll;">
+  <div class="row">
+    <div class="col-12">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">S.NO</th>
+            <th scope="col">ROLL NUMBER</th>
+            <th scope="col">NAME OF THE STUDENT</th>
+            <th scope="col">ENG 100</th>
+            <th scope="col">SAN 100</th>
+            <th scope="col">PHY 60</th>
+            <th scope="col">CHEM 60</th>
+            <th scope="col">BOT 60</th>
+            <th scope="col">ZOOL 60</th>
+            <th scope="col">TOTAL 440</th>
+
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <th scope="row">1</th>
+            <td>2414137602</td>
+            <td>TEJAVATH NISHANTH</td>
+            <td>94</td>
+            <td>98</td>
+            <td>58</td>
+            <td>60</td>
+            <td>59</td>
+            <td>60</td>
+            <td>429</td>
+
+          </tr>
+
+          <tr>
+            <th scope="row">2</th>
+            <td>2414137665</td>
+            <td>JANGAM SAI SRUJANA</td>
+            <td>93</td>
+            <td>98</td>
+            <td>60</td>
+            <td>60</td>
+            <td>60</td>
+            <td>58</td>
+            <td>429</td>
+          </tr>
+
+          <tr>
+            <th scope="row">3</th>
+            <td>2414137595</td>
+            <td>BOKINALAN EHANICOLE</td>
+            <td>93</td>
+            <td>99</td>
+            <td>60</td>
+            <td>56</td>
+            <td>69</td>
+            <td>60</td>
+            <td>427</td>
+          </tr>
+
+          <tr>
+            <th scope="row">4</th>
+            <td>2414137677</td>
+            <td>NALAGATI SAI TEJASWINI</td>
+            <td>93</td>
+            <td>98</td>
+            <td>58</td>
+            <td>60</td>
+            <td>58</td>
+            <td>60</td>
+            <td>427</td>
+          </tr>
+
+          <tr>
+            <th scope="row">5</th>
+            <td>2414137614</td>
+            <td>VELLANKI LOKESH BABU</td>
+            <td>94</td>
+            <td>97</td>
+            <td>58</td>
+            <td>60</td>
+            <td>60</td>
+            <td>56</td>
+            <td>427</td>
+          </tr>
+
+          <tr>
+            <th scope="row">6</th>
+            <td>2414137653</td>
+            <td>ATHMAKURU RUTHVIKA</td>
+            <td>96</td>
+            <td>98</td>
+            <td>58</td>
+            <td>58</td>
+            <td>60</td>
+            <td>55</td>
+            <td>425</td>
+          </tr>
+
+          <tr>
+            <th scope="row">7</th>
+            <td>2414137657</td>
+            <td>CHAPARALA SWETHA</td>
+            <td>95</td>
+            <td>97</td>
+            <td>57</td>
+            <td>56</td>
+            <td>60</td>
+            <td>60</td>
+            <td>425</td>
+          </tr>
+
+          <tr>
+            <th scope="row">8</th>
+            <td>2414137622</td>
+            <td>GAJULA KEETHAN</td>
+            <td>89</td>
+            <td>98</td>
+            <td>58</td>
+            <td>60</td>
+            <td>59</td>
+            <td>60</td>
+            <td>424</td>
+
+          </tr>
+
+          <tr>
+            <th scope="row">9</th>
+            <td>2414137638</td>
+            <td>KONETI YUVARAM SRUJAN</td>
+            <td>91</td>
+            <td>95</td>
+            <td>58</td>
+            <td>60</td>
+            <td>60</td>
+            <td>60</td>
+            <td>424</td>
+
+
+          </tr>
+
+          <tr>
+            <th scope="row">10</th>
+            <td>2414137661</td>
+            <td>MARGANI GAGAN</td>
+            <td>93</td>
+            <td>95</td>
+            <td>60</td>
+            <td>55</td>
+            <td>60</td>
+            <td>57</td>
+            <td>420</td>
+
+
+          </tr>
+
+          <tr>
+            <th scope="row">11</th>
+            <td>2414137685</td>
+            <td>RATNAKARAM NAGA SUMITRA</td>
+            <td>96</td>
+            <td>95</td>
+            <td>60</td>
+            <td>55</td>
+            <td>60</td>
+            <td>53</td>
+            <td>419</td>
+
+          </tr>
+
+          <tr>
+            <th scope="row">12</th>
+            <td>2414137534</td>
+            <td>IRUGULA VENKATA SRIVIDYA</td>
+            <td>95</td>
+            <td>96</td>
+            <td>56</td>
+            <td>55</td>
+            <td>56</td>
+            <td>59</td>
+            <td>417</td>
+          </tr>
+
+
+
+          <tr>
+            <th scope="row">13</th>
+            <td>2414137669</td>
+            <td>M HANSHIKKA</td>
+            <td>92</td>
+            <td>96</td>
+            <td>60</td>
+            <td>58</td>
+            <td>58</td>
+            <td>53</td>
+            <td>417</td>
+          </tr>
+
+
+
+          <tr>
+            <th scope="row">14</th>
+            <td>2414137475</td>
+            <td>TELI JANARDHANA VENKATANAGADURGA SAIMAHESH</td>
+            <td>95</td>
+            <td>93</td>
+            <td>47</td>
+            <td>60</td>
+            <td>58</td>
+            <td>60</td>
+            <td>413</td>
+          </tr>
+
+
+
+          <tr>
+            <th scope="row">15</th>
+            <td>2414137645 </td>
+            <td>BURADAGUNTA SOWMYA</td>
+            <td>96</td>
+            <td>98</td>
+            <td>58</td>
+            <td>60</td>
+            <td>59</td>
+            <td>41</td>
+            <td>412</td>
+          </tr>
+
+
+          <tr>
+            <th scope="row">16</th>
+            <td>2414137618</td>
+            <td>DAFEDAR KHAJA HUSSAIN</td>
+            <td>87</td>
+            <td>96</td>
+            <td>52</td>
+            <td>60</td>
+            <td>59</td>
+            <td>56</td>
+            <td>410</td>
+          </tr>
+
+
+
+
+          <tr>
+            <th scope="row">17</th>
+            <td>2414137681</td>
+            <td>PATHINTIB HUVANESWARI</td>
+            <td>91</td>
+            <td>91</td>
+            <td>57</td>
+            <td>51</td>
+            <td>58</td>
+            <td>60</td>
+            <td>408</td>
+          </tr>
+
+
+
+          <tr>
+            <th scope="row">18</th>
+            <td>2414137610</td>
+            <td>KALLUPOTHULA NAVANEETH</td>
+            <td>92</td>
+            <td>94</td>
+            <td>47</td>
+            <td>60</td>
+            <td>60</td>
+            <td>52</td>
+            <td>405</td>
+          </tr>
+
+
+
+          <tr>
+            <th scope="row">19</th>
+            <td>2414137649</td>
+            <td>SAGINALA SATHWIKA</td>
+            <td>90</td>
+            <td>94</td>
+            <td>56</td>
+            <td>56</td>
+            <td>60</td>
+            <td>49</td>
+            <td>405</td>
+          </tr>
+
+
+          <tr>
+            <th scope="row">20</th>
+            <td>2414137508</td>
+            <td>MAMIDI LAKSHMAN SIVA SAI</td>
+            <td>80</td>
+            <td>96</td>
+            <td>55</td>
+            <td>55</td>
+            <td>59</td>
+            <td>57</td>
+            <td>402</td>
+          </tr>
+
+
+
+          <tr>
+            <th scope="row">21</th>
+            <td>2414137630</td>
+            <td>BAIRABOYINA RAHUL</td>
+            <td>86</td>
+            <td>84</td>
+            <td>60</td>
+            <td>60</td>
+            <td>59</td>
+            <td>53</td>
+            <td>402</td>
+          </tr>
+
+
+
+
+          <tr>
+            <th scope="row">22</th>
+            <td>2414137641</td>
+            <td>KAMATHAM PRASHANTH</td>
+            <td>85</td>
+            <td>91</td>
+            <td>58</td>
+            <td>60</td>
+            <td>58</td>
+            <td>47</td>
+            <td>399</td>
+          </tr>
+
+
+          <tr>
+            <th scope="row">23</th>
+            <td>2414137606</td>
+            <td>VEERI THANUSH GOUD</td>
+            <td>83</td>
+            <td>90</td>
+            <td>60</td>
+            <td>55</td>
+            <td>54</td>
+            <td>56</td>
+            <td>398</td>
+          </tr>
+
+
+
+          <tr>
+            <th scope="row">24</th>
+            <td>2414137688</td>
+            <td>MANGALI VENKATA SUBBA CHARITHA</td>
+            <td>86</td>
+            <td>84</td>
+            <td>60</td>
+            <td>50</td>
+            <td>60</td>
+            <td>57</td>
+            <td>397</td>
+          </tr>
+
+
+          <tr>
+            <th scope="row">25</th>
+            <td>2414137673</td>
+            <td>YENDLURI SHIFRA</td>
+            <td>85</td>
+            <td>81</td>
+            <td>60</td>
+            <td>56</td>
+            <td>58</td>
+            <td>51</td>
+            <td>391</td>
+          </tr>
+
+
+
+
+          <tr>
+            <th scope="row">26</th>
+            <td>2414137634</td>
+            <td>G VINAY KUMAR</td>
+            <td>76</td>
+            <td>91</td>
+            <td>55</td>
+            <td>60</td>
+            <td>55</td>
+            <td>51</td>
+            <td>388</td>
+          </tr>
+
+
+
+
+          <tr>
+            <th scope="row">27</th>
+            <td>2414137598</td>
+            <td>DODDA ANEESH</td>
+            <td>81</td>
+            <td>78</td>
+            <td>58</td>
+            <td>58</td>
+            <td>52</td>
+            <td>60</td>
+            <td>387</td>
+          </tr>
+
+
+
+
+
+
+
+
+          <tr>
+            <th scope="row">28</th>
+            <td>2414137626</td>
+            <td>KAREPAKU GOPI RAKEE RANGANATH</td>
+            <td>75</td>
+            <td>80</td>
+            <td>54</td>
+            <td>57</td>
+            <td>59</td>
+            <td>55</td>
+            <td>380</td>
+          </tr>
+
+
+
+
+          <tr>
+            <th scope="row">29</th>
+            <td>2414137692</td>
+            <td>ATTAR MAHAMMED DADASAB</td>
+            <td>85</td>
+            <td>88</td>
+            <td>50</td>
+            <td>43</td>
+            <td>55</td>
+            <td>48</td>
+            <td>369</td>
+          </tr>
+
+
+
+
+          <tr>
+            <th scope="row">30</th>
+            <td>2414137530</td>
+            <td>DEVARAPALLI SRIVIDHYA</td>
+            <td>80</td>
+            <td>73</td>
+            <td>58</td>
+            <td>49</td>
+            <td>55</td>
+            <td>48</td>
+            <td>363</td>
+          </tr>
+
+
+
+
+
+          <tr>
+            <th scope="row">31</th>
+            <td>2414137512</td>
+            <td>SUVVARI ASHWANI</td>
+            <td>83</td>
+            <td>62</td>
+            <td>53</td>
+            <td>34</td>
+            <td>51</td>
+            <td>50</td>
+            <td>333</td>
+          </tr>
+
+
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<br>
+
+<!-- <button  id="open-pdf">
 
       <div class="loader">
 
@@ -2779,181 +2634,26 @@
 
   </button> -->
 
-  <script>
-      document.getElementById('open-pdf').addEventListener('click', function() {
-          var pdfUrl = 'img/NEET PHYSICS PAPER WITH SOLUTIONS.pdf'; // Path to your PDF file
-          window.open(pdfUrl, '_blank'); // Open PDF in new tab
-  
-          // Optional: If you want to embed the PDF in the current page as well
-          var pdfContainer = document.getElementById('pdf-container');
-          pdfContainer.innerHTML = ''; // Clear any previous PDF content
-  
-          // Create a <embed> element to display the PDF
-          var embed = document.createElement('embed');
-          embed.src = pdfUrl;
-          embed.type = 'application/pdf';
-          embed.width = '100%';
-          embed.height = '100%';
-  
-          // Append the <embed> element to the container
-          pdfContainer.appendChild(embed);
-      });
-  </script>
+<script>
+  document.getElementById('open-pdf').addEventListener('click', function() {
+    var pdfUrl = 'img/NEET PHYSICS PAPER WITH SOLUTIONS.pdf'; // Path to your PDF file
+    window.open(pdfUrl, '_blank'); // Open PDF in new tab
+
+    // Optional: If you want to embed the PDF in the current page as well
+    var pdfContainer = document.getElementById('pdf-container');
+    pdfContainer.innerHTML = ''; // Clear any previous PDF content
+
+    // Create a <embed> element to display the PDF
+    var embed = document.createElement('embed');
+    embed.src = pdfUrl;
+    embed.type = 'application/pdf';
+    embed.width = '100%';
+    embed.height = '100%';
+
+    // Append the <embed> element to the container
+    pdfContainer.appendChild(embed);
+  });
+</script>
 
 
-    <!-- Footer Start -->
-      <footer class="footer-area">
-          <div class="main-footer">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-lg-4 col-md-6">
-                          <div class="single-widget pr-60">
-                              <div class="footer-logo ">
-                                  <a href="index.html"><img src="img/f_logo.png" alt="eduhome"></a>
-                              </div>
-                              <p>Transforming Lives through Education At MEDENG, we believe that knowledge knows no bounds and that child with enthusiasm and curiosity can reach the stars. Education should empower, not intimidate. Our approach took shape on these values and paved path to achieving brilliance in top-edge academics nationally through our comprehensive preparation for exams such as IIT, JEE, EAMCET, NEET, AIIMS, and ZIPMER. </p>
-                              <div class="footer-social">
-                                  <ul>
-                                      <li><a href="https://www.facebook.com/people/Medeng-Junior-college/100089950418925/" target="_blank"><i class="zmdi zmdi-facebook"></i></a></li>
-                                      <li>
-                                          <a href="https://www.instagram.com/medengjuniorcollege/" target="_blank">
-                                            <i class="zmdi zmdi-instagram"></i>
-                                          </a>
-                                        </li>
-                                        <li><a href="https://www.instagram.com/medengjuniorcollege/" target="_blank" ><i class="zmdi zmdi-twitter"></i></a></li>
-                                        <li>
-                                          <a href="https://www.youtube.com/channel/UCD8pLPaSlwHylemck8fwOHw" target="_blank">
-                                            <i class="zmdi zmdi-youtube"></i>
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href="#">
-                                            <i class="zmdi zmdi-linkedin"></i>
-                                          </a>
-                                        </li>
-                                        <li>
-                                          <a href="#">
-                                            <i class="zmdi zmdi-pinterest"></i>
-                                          </a>
-                                        </li>
-                                  </ul>    
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-lg-3 col-md-6">
-                          <div class="single-widget">
-                              <h3>Contact Us</h3>
-                              <ul>
-                                  <li><a href="#">  
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                                    </svg> Vijayawada<br>  &nbsp; &nbsp;&nbsp; Visakhapatnam</a></li>
-                                  <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                                      <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                                    </svg>
-                                      +91 9492381111 <br>  &nbsp; &nbsp;&nbsp;  +91 9705345099</a></li>
-                                  <li><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                      <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-                                    </svg> &nbsp; medengcolleges@gmail.com</a></li>
-                                  <!-- <li><a href="#">Hostel &amp; Dinning</a></li>
-                                  <li><a href="#">TimeTable</a></li> -->
-                              </ul>
-                          </div>
-                      </div>
-                      <div class="col-lg-2 col-md-6 pt-4 pt-lg-0">
-                          <div class="single-widget">
-                              <h3>Our Services</h3>
-                              <ul>
-                                  <li><a href="index.html">Home</a></li>
-                                  <li><a href="about.html">About us</a></li>
-                                  <li><a href="teacher.html">Teacher</a></li>
-                                  <li><a href="contact.html">Contact Us</a></li>
-                              </ul>
-                          </div>
-                      </div>
-                      <div class="col-lg-3 col-md-6 pt-4 pt-lg-0">
-                          <div class="single-widget">
-                              <h3>Our Gallery</h3>
-                                  <div class="row">
-                                          <div class="col-6"><a href="gallery.html"><img src="img/image1.png" class="img-fluid pb-2" alt=""></a></div>
-                                          <div class="col-6"><a href="gallery.html"> <img src="img/image2.png" class="img-fluid pb-2" alt=""></a></div>
-                                          <div class="col-6"><a href="gallery.html"> <img src="img/image6.png" class="img-fluid pb-2" alt=""></a></div>
-                                          <div class="col-6"><a href="gallery.html"> <img src="img/image3.png"class="img-fluid pb-2" alt=""></a></div>
-                                          <div class="col-6"><a href="gallery.html"> <img src="img/image4.png" class="img-fluid pb-2" alt=""></a></div>
-                                          <div class="col-6"><a href="gallery.html"> <img src="img/image5.png" class="img-fluid pb-2" alt=""></a></div>
-                                      </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>   
-          <div class="footer-bottom text-center">
-              <div class="container">
-                  <div class="row">
-                      <!-- <div class="col-12">
-                          <p>Copyright © 2024 All rights reserved | Designed by  <a href="https://bhavicreations.com/" target="_blank"> Bhavi Creations </a> </p>
-                      </div>  -->
-
-
-                      <div class="col-xl-8 col-lg-6 col-md-8 col-12">
-                          
-                            <p  >  ©2024 Medeng-Junior-college. All Rights Reserved. Designed & Developed by <a href="https://bhavicreations.com/" target="_blank" class="font-weight-bold" style="text-decoration: none; color: #ffffff; ">Bhavi Creations</a> </p>
-                          
-                      </div> 
-                      <div class="col-xl-4 col-lg-6 col-md-4 col-12">
-                                <p>  <a href="terms.html" style="text-decoration: none; color: #ffffff;">Terms and conditions &nbsp; &nbsp; </a> 
-                                <a href="privacy.html" style="text-decoration: none; color: #ffffff;">Privacy policy</a> </p>
-                        </div>
-                  </div>
-              </div>    
-          </div>
-      </footer>
-    <!-- Footer End -->
-
-        <script src="js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.meanmenu.js"></script>
-        <script src="js/jquery.magnific-popup.js"></script>
-        <script src="js/ajax-mail.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/jquery.mb.YTPlayer.js"></script>
-        <script src="js/jquery.nicescroll.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSLSFRa0DyBj9VGzT7GM6SFbSMcG0YNBM "></script>
-
-        <script>
-            google.maps.event.addDomListener(window, 'load', init);
-            function init() {
-                var mapOptions = {
-                    zoom: 11,
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
-                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-                };
-                var mapElement = document.getElementById('googleMap');
-                var map = new google.maps.Map(mapElement, mapOptions);
-                var marker = new google.maps.Marker({
-                    position: map.getCenter(),
-                    animation:google.maps.Animation.BOUNCE,
-                    icon: 'img/map-marker.png',
-                    map: map
-                });
-            }
-        </script>
-        <script src="js/main.js"></script>
-
-        <a href="https://api.whatsapp.com/send?phone=919985381111" target="_blank">
-          <div class="whatsapp_logo">
-              <img src="img/whatsapp.png" alt="whatsapp" class="img-fluid" height="50px" width="50px">
-          </div>
-      </a>
-  
-  
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-  
-  
-  
-  
-  </body>
-  
-  </html>
+<?php include 'footer.php';  ?>
