@@ -26,11 +26,30 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+
+
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-10932795730');
+    </script>
+
+
 </head>
 
 <body>
- 
-    
+
+
     <header class="top">
         <div class="header-top">
             <div class="container">
@@ -102,19 +121,19 @@
 
 
                                         <script>
-                                            document.addEventListener("click", function (e) {
+                                            document.addEventListener("click", function(e) {
                                                 const dropdown = document.querySelector(".dropdown");
                                                 if (!dropdown.contains(e.target)) {
                                                     const dropdownMenus = document.querySelectorAll(".dropdown-menu");
-                                                    dropdownMenus.forEach(function (menu) {
+                                                    dropdownMenus.forEach(function(menu) {
                                                         menu.style.display = "none";
                                                     });
                                                 }
                                             });
 
                                             // Add an event listener to prevent hiding the dropdown menu when hovering over it
-                                            document.querySelectorAll(".dropdown-menu").forEach(function (menu) {
-                                                menu.addEventListener("mouseover", function (e) {
+                                            document.querySelectorAll(".dropdown-menu").forEach(function(menu) {
+                                                menu.addEventListener("mouseover", function(e) {
                                                     e.stopPropagation(); // Prevent event from bubbling up to the document
                                                 });
                                             });
