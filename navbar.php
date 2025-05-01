@@ -30,6 +30,8 @@
 
 
 
+
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
     </script>
@@ -108,8 +110,10 @@ function gtag_report_conversion(url) {
                                     <ul>
                                         <li><a href="index.php" class="text-danger">Home</a></li>
                                         <li><a href="about.php">About us</a></li>
+                                        <li><a href="form.php">Competative</a></li>
                                         <li><a href="course.php">courses</a>
                                             <ul>
+                                     
                                                 <li><a href="course.php">courses</a></li>
                                                 <li><a href="course-details.php">courses details</a></li>
                                             </ul>
@@ -186,7 +190,7 @@ function gtag_report_conversion(url) {
                                 </nav>
                             </div>
                             <!--Search Form Start-->
-                            <div class="search-btn">
+                            <!-- <div class="search-btn">
                                 <ul class="header-search search-toggle">
                                     <li class="search-menu">
                                         <i class="fa fa-search"></i>
@@ -202,7 +206,7 @@ function gtag_report_conversion(url) {
                                         </form>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <!--End of Search Form-->
                             <!-- Main Menu End -->
                         </div>

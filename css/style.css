@@ -5231,3 +5231,8 @@ p {
     border: 2px solid #87297F;
 }
  
+
+.center-heading {
+    text-align: center;
+    font-size: 30px !important;
+}
