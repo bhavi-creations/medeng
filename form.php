@@ -36,7 +36,16 @@
             <input type="text" class="form-control" id="school" name="school">
             <div class="text-danger small d-none" id="errorSchool">Please enter school name</div>
         </div>
-
+        <div class="mb-3">
+            <label for="marks" class="form-label">SSC Total Marks*</label>
+            <textarea class="form-control" id="marks" name="marks" rows="3"></textarea>
+            <div class="text-danger small d-none" id="errorMarks">Please enter Marks</div>
+        </div>
+        <div class="mb-3">
+            <label for="group" class="form-label">Inter Group*</label>
+            <textarea class="form-control" id="group" name="group" rows="3"></textarea>
+            <div class="text-danger small d-none" id="errorGroup">Please enter Your Intrested Group</div>
+        </div>
         <div class="mb-3">
             <label for="address" class="form-label">Address*</label>
             <textarea class="form-control" id="address" name="address" rows="3"></textarea>
@@ -61,8 +70,10 @@
         const parent = document.getElementById("parent").value.trim();
         const primary = document.getElementById("primary").value.trim();
         const school = document.getElementById("school").value.trim();
+        const marks = document.getElementById("marks").value.trim();
+        const group = document.getElementById("group").value.trim();
         const address = document.getElementById("address").value.trim();
-
+        
         // Hide all errors
         document.querySelectorAll(".text-danger").forEach(el => el.classList.add("d-none"));
 
@@ -80,6 +91,13 @@
         }
         if (!school) {
             document.getElementById("errorSchool").classList.remove("d-none");
+            isValid = false;
+        }
+        if (!marks) {
+            document.getElementById("errorMarks").classList.remove("d-none");
+            isValid = false;
+        } if (!group) {
+            document.getElementById("errorGroup").classList.remove("d-none");
             isValid = false;
         }
         if (!address) {

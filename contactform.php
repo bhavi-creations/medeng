@@ -16,6 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $contactsecondary = $_POST['Secondary Number'] ?? '';
 
     $contactschool= $_POST['School name'] ?? '';
+    $contactmarks= $_POST['marks'] ?? '';
+    $contactgroup= $_POST['group'] ?? '';
     $contactaddress = $_POST['Address'] ?? '';
     $contactremarks = $_POST['Remarks'] ?? '';
 
@@ -48,6 +50,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             <p><strong>Secondary number:</strong>     $contactsecondary </p>
             <p><strong>School:</strong>    $contactschool</p>
+            <p><strong>Marks:</strong>    $contactmarks</p>
+            <p><strong>Gruop:</strong>    $contactgroup</p>
             <p><strong>Address:</strong> $contactaddress</p>
             <p><strong>Remarks:</strong>$contactremarks</p>
         ";
