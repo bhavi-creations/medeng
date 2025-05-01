@@ -11,13 +11,13 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
     $contactname = $_POST['name'] ?? '';
-    $contactparents = $_POST['parents'] ?? '';
-    $contactPrimarynumber = $_POST['Primary Number'] ?? '';
-    $contactSecondarynumber = $_POST['Secondary Number'] ?? '';
+    $contactparent = $_POST['parents'] ?? '';
+    $contactprimary = $_POST['Primary Number'] ?? '';
+    $contactsecondary = $_POST['Secondary Number'] ?? '';
 
-    $contactSchoolname = $_POST['School name'] ?? '';
+    $contactschool= $_POST['School name'] ?? '';
     $contactaddress = $_POST['Address'] ?? '';
-    $contactRemarks = $_POST['Remarks'] ?? '';
+    $contactremarks = $_POST['Remarks'] ?? '';
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -43,13 +43,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
            
             <h1>Contact Details</h1>
             <p><strong>Name:</strong> $contactname</p>
-            <p><strong>Father/Mother:</strong>$contactparents</p>
-           <p><strong> Pimary Number:</strong>$contactPrimarynumber</p>
+            <p><strong>Father/Mother:</strong>  $contactparent</p>
+           <p><strong> Pimary Number:</strong>  $contactprimary </p>
 
-            <p><strong>Secondary number:</strong> $contactSecondarynumber </p>
-            <p><strong>School:</strong> $contactSchoolname</p>
+            <p><strong>Secondary number:</strong>     $contactsecondary </p>
+            <p><strong>School:</strong>    $contactschool</p>
             <p><strong>Address:</strong> $contactaddress</p>
-            <p><strong>Remarks:</strong>$contactRemarks</p>
+            <p><strong>Remarks:</strong>$contactremarks</p>
         ";
 
         $mail->send();

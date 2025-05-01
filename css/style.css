@@ -5233,6 +5233,6 @@ p {
  
 
 .center-heading {
-    text-align: center;
+    text-align: center !important;
     font-size: 30px !important;
 }

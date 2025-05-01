@@ -5,7 +5,7 @@
     <!-- <div class="aboutmainimage mb-4">
         <img src="img/new our course.png" alt="Our Course" class="img-fluid w-100">
     </div> -->
-    <h1 class="center-heading">Competitive Exam</h1>
+    <h1 class="center-heading">Entrance Exam</h1>
 
     <form id="studentForm" onsubmit="return validateForm()" action="contactform.php" method="post" class="bg-light p-4 rounded shadow">
         <div class="mb-3">

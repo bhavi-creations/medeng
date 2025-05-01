@@ -110,7 +110,7 @@ function gtag_report_conversion(url) {
                                     <ul>
                                         <li><a href="index.php" class="text-danger">Home</a></li>
                                         <li><a href="about.php">About us</a></li>
-                                        <li><a href="form.php">Competative</a></li>
+                                        <li><a href="form.php">Entrance</a></li>
                                         <li><a href="course.php">courses</a>
                                             <ul>
                                      
@@ -218,3 +218,5 @@ function gtag_report_conversion(url) {
             </div>
         </div>
     </header>
+
+    
