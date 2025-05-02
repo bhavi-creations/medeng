@@ -95,7 +95,7 @@ function gtag_report_conversion(url) {
             </div>
         </div>
         <div class="header-area two header-sticky">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-3 col-sm-5 col-6">
                         <div class="logo">
