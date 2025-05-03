@@ -3,9 +3,11 @@
 
 
 
-<div class="container">
-    <h2>English :  20 Marks</h2>
-    <h2>Maths Matics : 30 marks</h2>
+<div class="container form_top_content">
+ <h1 class="form_note">Note :</h1>
+
+    <h2>English :  20 Maks</h2>
+    <h2>Mathematics : 30 marks</h2> 
     <h2>physical science (PS) : 25 marks</h2>
     <h2>Natural science (NS) : 25 marks</h2>
 
@@ -84,16 +86,31 @@
 
 
 <div class="container form_bottom_content">
+
+<h1 class="form_bottom">Information</h1>
+    <div class="row">
+        
+        <div class="col-md-6 col-12 ">
+       <p> <strong></strong> 1.	హాస్టల్ గదికి కేవలం ముగ్గురు విద్యర్థులు మాత్రమే</strong> </p>
+       <p>  <strong>3.	ప్రతి రోజు గేమ్స్ కి ప్రత్యేక సమయం </strong> </p>
+        <p> <strong>5.	IIT, Mains, మరియు NEET, EAPCET లకు ప్రత్యేక శిక్షణ  </strong> </p>
+        <p> <strong>7.	ఒత్తిడి లేని విద్యా విధానంతో స్టడీ అవర్స్ నిర్వహించబడును </strong> </p>
+
+
+
+
+        </div>
+        <div class="col-md-6 col-12 ">
+
+  <p>       <strong>2.	పోషక ఆహారంతో పాటు మానసిక ఆనందానికి కూడా సమాన ప్రాధాన్యత </strong>   </p>
+  <p><strong>4.	అనుభవజ్ఞులైన ఉపాధ్యాయులచే 3D బోధన </strong> </p>
+  <p><strong>6.	ఆహ్లదకరమైన వాతావరణంలో ఉన్న విల్లాలో హాస్టల్ వసతి </strong> </p>
+  <p><strong>8.	విద్యార్థి ప్రతిభకు వెలుగు ఇచ్చే వార్షికోత్సవ వేడుకలు </strong></p>
+
+        </div>
+    </div>
     
-<p>  <b></b> 1.	హాస్టల్ గదికి కేవలం ముగ్గురు విద్యర్థులు మాత్రమే</b> <br>
- <b>2.	పోషక ఆహారంతో పాటు మానసిక ఆనందానికి కూడా సమాన ప్రాధాన్యత </b>  <br>
- <b>3.	ప్రతి రోజు గేమ్స్ కి ప్రత్యేక సమయం </b> <br>
- <b>4.	అనుభవజ్ఞులైన ఉపాధ్యాయులచే 3D బోధన </b> <br>
- <b>5.	IIT, Mains, మరియు NEET, EAPCET లకు ప్రత్యేక శిక్షణ  </b> <br>
- <b>6.	ఆహ్లదకరమైన వాతావరణంలో ఉన్న విల్లాలో హాస్టల్ వసతి </b> <br>
- <b>7.	ఒత్తిడి లేని విద్యా విధానంతో స్టడీ అవర్స్ నిర్వహించబడును </b> <br>
- <b>8.	విద్యార్థి ప్రతిభకు వెలుగు ఇచ్చే వార్షికోత్సవ వేడుకలు </b></p>
-</div></b>
+</div></strong>
 
 
 <script>
