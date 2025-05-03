@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
            
             <h1>Contact Details</h1>
             <p><strong>Name:</strong> $contactname</p>
-  f          <p><strong>Father/Mother:</strong>  $contactparent</p>
+            <p><strong>Father/Mother:</strong>  $contactparent</p>
            <p><strong> Pimary Number:</strong>  $contactprimary </p>
 
             <p><strong>Secondary number:</strong>     $contactsecondary </p>
