@@ -1,6 +1,24 @@
 <?php include 'navbar.php';  ?>
 
 
+
+
+<div class="container">
+    <h2>English :  20 Marks</h2>
+    <h2>Maths Matics : 30 marks</h2>
+    <h2>physical science (PS) : 25 marks</h2>
+    <h2>Natural science (NS) : 25 marks</h2>
+
+   <h2>Total :100 marks  &nbsp;&nbsp;&nbsp; ( 2hours exam )</h2>
+
+
+    
+</div>
+
+
+
+
+
 <div class="container my-4">
     <!-- <div class="aboutmainimage mb-4">
         <img src="img/new our course.png" alt="Our Course" class="img-fluid w-100">
@@ -60,6 +78,23 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+
+
+
+
+
+<div class="container form_bottom_content">
+    
+<p>  <b></b> 1.	హాస్టల్ గదికి కేవలం ముగ్గురు విద్యర్థులు మాత్రమే</b> <br>
+ <b>2.	పోషక ఆహారంతో పాటు మానసిక ఆనందానికి కూడా సమాన ప్రాధాన్యత </b>  <br>
+ <b>3.	ప్రతి రోజు గేమ్స్ కి ప్రత్యేక సమయం </b> <br>
+ <b>4.	అనుభవజ్ఞులైన ఉపాధ్యాయులచే 3D బోధన </b> <br>
+ <b>5.	IIT, Mains, మరియు NEET, EAPCET లకు ప్రత్యేక శిక్షణ  </b> <br>
+ <b>6.	ఆహ్లదకరమైన వాతావరణంలో ఉన్న విల్లాలో హాస్టల్ వసతి </b> <br>
+ <b>7.	ఒత్తిడి లేని విద్యా విధానంతో స్టడీ అవర్స్ నిర్వహించబడును </b> <br>
+ <b>8.	విద్యార్థి ప్రతిభకు వెలుగు ఇచ్చే వార్షికోత్సవ వేడుకలు </b></p>
+</div></b>
+
 
 <script>
     function validateForm() {
