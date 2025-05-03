@@ -11,7 +11,7 @@
     <h2>physical science (PS) : 25 marks</h2>
     <h2>Natural science (NS) : 25 marks</h2>
 
-   <h2>Total :100 marks  &nbsp;&nbsp;&nbsp; ( 2hours exam )</h2>
+   <h2>Total :100 marks  &nbsp;&nbsp;    ( 2hours exam )</h2>
 
 
     

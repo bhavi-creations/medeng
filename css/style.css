@@ -5251,7 +5251,7 @@ p {
 .form_bottom_content{
     margin-top:20px;
     margin-bottom: 40px;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 50PX;
 }
 
@@ -5259,6 +5259,10 @@ p {
     margin-bottom: 10px;
     font-weight: 700;
     
+}
+
+.form_top_content h2 {
+    font-size: 13px !important;
 }
 
 .form_top_content{
