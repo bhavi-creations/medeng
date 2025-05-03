@@ -11,15 +11,15 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
     $contactname = $_POST['name'] ?? '';
-    $contactparent = $_POST['parents'] ?? '';
-    $contactprimary = $_POST['Primary Number'] ?? '';
-    $contactsecondary = $_POST['Secondary Number'] ?? '';
+    $contactparent = $_POST['parent'] ?? '';
+    $contactprimary = $_POST['primary'] ?? '';
+    $contactsecondary = $_POST['secondary'] ?? '';
 
-    $contactschool= $_POST['School name'] ?? '';
+    $contactschool= $_POST['school'] ?? '';
     $contactmarks= $_POST['marks'] ?? '';
     $contactgroup= $_POST['group'] ?? '';
-    $contactaddress = $_POST['Address'] ?? '';
-    $contactremarks = $_POST['Remarks'] ?? '';
+    $contactaddress = $_POST['address'] ?? '';
+    $contactremarks = $_POST['remarks'] ?? '';
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);

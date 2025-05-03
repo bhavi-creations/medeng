@@ -71,7 +71,7 @@ function gtag_report_conversion(url) {
 <body>
 
 
-    <header class="top">
+    <header class="top d-block d-md-none d-lg-block">
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -219,4 +219,4 @@ function gtag_report_conversion(url) {
         </div>
     </header>
 
-    
+   
