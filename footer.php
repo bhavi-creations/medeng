@@ -91,14 +91,22 @@
                     </div>  -->
 
 
-                <div class="col-xl-8 col-lg-6 col-md-8 col-12">
+                <div class="col-xl-8 col-lg-6 col-md-12 col-12">
 
-                    <p> ©2024 Medeng-Junior-college. All Rights Reserved. Designed & Developed by <a href="https://bhavicreations.com/" target="_blank" class="font-weight-bold" style="text-decoration: none; color: #ffffff; ">Bhavi Creations</a> </p>
+                    <p> ©2024 Medeng-Junior-college. All Rights Reserved.
+
+                        <a href="terms.php" style="text-decoration: none; color: #ffffff;">Terms and conditions &nbsp; &nbsp; </a>
+                        <a href="privacy.php" style="text-decoration: none; color: #ffffff;">Privacy policy</a>
+
+
+
+
+                    </p>
 
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-4 col-12">
-                    <p> <a href="terms.php" style="text-decoration: none; color: #ffffff;">Terms and conditions &nbsp; &nbsp; </a>
-                        <a href="privacy.php" style="text-decoration: none; color: #ffffff;">Privacy policy</a>
+                <div class="col-xl-4 col-lg-6 col-md-12 col-12">
+                    <p> Designed & Developed by <a href="https://bhavicreations.com/" target="_blank" class="font-weight-bold" style="text-decoration: none; color: #ffffff; ">Bhavi Creations</a>
+
                     </p>
                 </div>
             </div>
